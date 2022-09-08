@@ -1055,3 +1055,26 @@ margin: 0 auto;
 .download-link-os:hover .black{
     display:inline-block;
 }
+.banner-top{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ff9f9f;
+  color: #FFF;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.banner-top .left-section{
+  padding-right: 50px;
+}
+.banner-top .rigt-section{
+  padding-left: 50px;
+}
+.btn-banner{
+  padding: 20px 40px;
+  background-color: #000;
+  color: #FFF;
+}
